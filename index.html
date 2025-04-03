@@ -10,8 +10,9 @@
 </head>
 <body>
     <header class="lHeader">
-        <nav class="nav bdGrid">
+        <nav class="nav bdGrid" id="navWrapper">
             <div class="navMenu" id="navMenu">
+        
                 <a href="#" class="navLogo">
                     <span>Renan</span>
                     <span>Makoto</span>
@@ -21,6 +22,8 @@
                     <li class="navItem"><a href="#about" class="navLink">About</a></li>
                     <li class="navItem"><a href="#skills" class="navLink">Skills</a></li>
                     <li class="navItem"><a href="#work" class="navLink">Work</a></li>
+                    <li class="navItem"><a href="#certificates" class="navLink">Certificates</a></li>
+                    <li class="navItem"><a href="#volunteer" class="navLink">Volunteer</a></li>
                     <li class="navItem"><a href="#contact" class="navLink">Contact</a></li>
                 </ul>
             </div>
@@ -33,7 +36,7 @@
     <main class="lMain">
         <section class="home bdGrid" id="home">
             <div class="homeData">
-                <h1 class="homeTitle">Hi,<br>I'm <span class="homeTitleColor">Renan Makoto</span></br></h1>
+                <h1 class="homeTitle">Hi,<br>I'm <span class="homeTitleColor">Renan Makoto</span></h1>
                 <a href="#contact" class="button">Contact</a>
             </div>
         </section>
@@ -44,15 +47,13 @@
                 <div id="aboutDiv">
                     <h2 class="aboutSubtitle">Renan Makoto</h2>
                     <p class="aboutText">
-                        As a dedicated tech worker with a strong familiarity with JavaScript and a huge passion for GNU/Linux distros, 
-                        my approach is anchored in methodical analysis and a deep attention to detail, 
-                        ensuring that every project I undertake is executed with accuracy and effectiveness. 
-                        With a background in BASH (Shell Scripting), which I also have a great passion for, 
-                        I can develop resilient back-end systems. I am committed to continuous learning, 
-                        constantly evolving my skill set to stay at the forefront of technology and consistently pushing the boundaries 
-                        of what's possible.
+                        I am a software developer with experience in using JavaScript and its most widely used libraries, such as React, Next.js, and Node.js, to build a variety of applications, responsive web interfaces and robust back-end solutions. In addition, I have experience working with Linux, BASH, SQL and NoSQL databases, having also developed cross-platform solutions for web, mobile, and desktop environments using REST APIs, React Native, Expo, and Electron.
                     </p>           
-                    <a target="_blank" href="assets/renanmakotoresume.pdf" class="button" download>Download my Resumé</a>
+
+                    <p class="aboutText">
+                        My career goal is to become a DevOps Engineer, combining my MERN Fullstack software development skills with my passion for GNU/LINUX and Cloud Native applications.
+                    </p>
+                    
                 </div>                                   
             </div>
         </section>
@@ -64,6 +65,11 @@
                     <i class="bx bxl-javascript skillsIcon"></i>
                     <span class="skillsName">JavaScript</span>
                 </div>
+
+                <div class="skillsData">
+                    <i class='bx bxl-typescript'></i>
+                    <span class="skillsName">TypeScript</span>
+                </div>
                 <div class="skillsData">
                     <i class="bx bxl-react skillsIcon"></i>
                     <span class="skillsName">React</span>
@@ -72,10 +78,7 @@
                     <i class="bx bxl-react skillsIcon"></i>
                     <span class="skillsName">React Native</span>
                 </div>
-                <div class="skillsData">
-                    <i class='bx bxl-typescript'></i>
-                    <span class="skillsName">TypeScript</span>
-                </div>
+
                 <div class="skillsData">
                     <i class="bx bxl-nodejs skillsIcon"></i>
                     <span class="skillsName">Node.js</span>
@@ -94,6 +97,29 @@
                 </div>
             </div>
         </section>
+
+        <section class="skills section" id="softskills">
+            <h2 class="sectionTitle">Interpersonal Skills</h2>
+            <div class="skillsContainer bdGrid">          
+                <div class="skillsData">
+                    <i class='bx bx-bulb skillsIcon'></i>
+                    <span class="skillsName">Problem Solving</span>
+                </div>
+                <div class="skillsData">
+                    <i class='bx bx-message-dots skillsIcon'></i>
+                    <span class="skillsName">Communication</span>
+                </div>
+                <div class="skillsData">
+                    <i class='bx bx-group skillsIcon'></i>
+                    <span class="skillsName">Teamwork</span>
+                </div>
+                <div class="skillsData">
+                    <i class='bx bx-cog skillsIcon'></i>
+                    <span class="skillsName">Technical</span>
+                </div>
+            </div>
+        </section>
+        
 
         <section class="work section" id="work">
             <h2 class="sectionTitle">Work</h2>
@@ -164,6 +190,22 @@
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section class="section" id="certificates">
+            <h2 class="sectionTitle">Certificates & Education</h2>
+            <ul>
+                <li><h3>George Brown College</h3>Computer Programming and Analysis <br>2024–2026</li>
+                <li><h3>The Linux Foundation</h3>REST APIs Certificate <br>2023</li>
+                <li><h3>Google & Coursera</h3>IT Support Certificate <br>2023</li>
+            </ul>
+        </section>
+
+        <section class="section" id="volunteer">
+            <h2 class="sectionTitle">Volunteer Work</h2>
+            <ul>
+                <li><h3>Federation of Canadian-Brazilian Businesses</h3>IT Support Analyst <br>2024–Present</li>
+            </ul>
         </section>
 
         <section class="contact section" id="contact">

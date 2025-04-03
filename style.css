@@ -308,6 +308,20 @@ img {
   margin-bottom: 10rem;
 }
 
+#certificates ul,
+#volunteer ul {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#certificates li,
+#volunteer li {
+  margin-bottom: 2rem;
+  font-size: var(--normal-font-size);
+  line-height: 1.6;
+}
+
+
 @media screen and (max-width: 768px) {
   .workContainer {
     grid-template-columns: 1fr;
