@@ -46,11 +46,6 @@ document.querySelector('.button[href="#contact"]').addEventListener('click', fun
     document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' })
 })
 
-document.querySelector('.button[href="assets/renanmakotoresume.pdf"]').addEventListener('click', function(e) {
-    e.preventDefault()
-    window.location.href = './assets/renanmakotoresume.pdf'
-})
-
 const sr = ScrollReveal({
     origin: 'top',
     distance: '80px',
@@ -60,21 +55,11 @@ const sr = ScrollReveal({
 
 sr.reveal('.homeTitle', {})
 sr.reveal('.button', { delay: 200 })
-sr.reveal('.homeImg', { delay: 400 })
-sr.reveal('.homeSocialIcon', { interval: 200 })
-
-sr.reveal('.aboutImg', {})
-sr.reveal('.aboutSubtitle', { delay: 400 })
 sr.reveal('.aboutText', { delay: 400 })
-
-sr.reveal('.skillsSubtitle', {})
-sr.reveal('.skillsText', {})
 sr.reveal('.skillsData', { interval: 200 })
-sr.reveal('.skillsImg', { delay: 600 })
-
-sr.reveal('.workImg', { interval: 200 })
-
+sr.reveal('.workCard', { interval: 200 })
 sr.reveal('.contactLink', { interval: 200 })
+
 
 const buttons = document.querySelectorAll('.button')
 const icons = document.querySelectorAll('.contactLink i')
