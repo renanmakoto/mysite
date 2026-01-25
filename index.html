@@ -10,16 +10,20 @@
 </head>
 <body>
     <header class="lHeader">
-        <nav class="nav">
-            <a href="#" class="navLogo">
-                <span>Renan</span><span>Makoto</span>
-            </a>
+        <nav class="nav bdGrid" id="navWrapper">
             <div class="navMenu" id="navMenu">
+        
+                <a href="#" class="navLogo">
+                    <span>Renan</span>
+                    <span>Makoto</span>
+                </a>
                 <ul class="navList">
                     <li class="navItem"><a href="#home" class="navLink active">Home</a></li>
                     <li class="navItem"><a href="#about" class="navLink">About</a></li>
                     <li class="navItem"><a href="#skills" class="navLink">Skills</a></li>
                     <li class="navItem"><a href="#work" class="navLink">Work</a></li>
+                    <!-- <li class="navItem"><a href="#certificates" class="navLink">Certificates</a></li>
+                    <li class="navItem"><a href="#volunteer" class="navLink">Volunteer</a></li> -->
                     <li class="navItem"><a href="#contact" class="navLink">Contact</a></li>
                 </ul>
             </div>
@@ -29,149 +33,212 @@
         </nav>
     </header>
 
-    <main>
-        <section class="home" id="home">
+    <main class="lMain">
+        <section class="home bdGrid" id="home">
             <div class="homeData">
-                <p class="homeSubtitle">Software Developer</p>
-                <h1 class="homeTitle">Hi, I'm <span class="homeTitleColor">Renan Makoto</span></h1>
-                <p class="homeDesc">Building modern web and mobile applications with JavaScript, React, and Node.js</p>
-                <a href="#contact" class="button">Get in Touch</a>
+                <h1 class="homeTitle">Hi,<br>I'm <span class="homeTitleColor">Renan Makoto</span></h1>
+                <a href="#contact" class="button">Contact</a>
             </div>
         </section>
 
         <section class="about section" id="about">
             <h2 class="sectionTitle">About</h2>
-            <div class="aboutContainer">
-                <p class="aboutText">
-                    I am a software developer with experience in using JavaScript and its most widely used libraries, such as React, Next.js, and Node.js, to build a variety of applications, responsive web interfaces and robust back-end solutions. In addition, I have experience working with Linux, BASH, SQL and NoSQL databases, having also developed cross-platform solutions for web, mobile, and desktop environments using REST APIs, React Native, Expo, and Electron.
-                </p>
+            <div class="aboutContainer bdGrid">
+                <div id="aboutDiv">
+                    <h2 class="aboutSubtitle">Renan Makoto</h2>
+                    <p class="aboutText">
+                        I am a software developer with experience in using JavaScript and its most widely used libraries, such as React, Next.js, and Node.js, to build a variety of applications, responsive web interfaces and robust back-end solutions. In addition, I have experience working with Linux, BASH, SQL and NoSQL databases, having also developed cross-platform solutions for web, mobile, and desktop environments using REST APIs, React Native, Expo, and Electron.
+                    </p>           
+<!-- 
+                    <p class="aboutText">
+                        My career goal is to become a DevOps Engineer, combining my MERN Fullstack software development skills with my passion for GNU/LINUX and Cloud Native applications.
+                    </p> -->
+                    
+                </div>                                   
             </div>
         </section>
 
         <section class="skills section" id="skills">
             <h2 class="sectionTitle">Skills</h2>
-            <div class="skillsContainer">
+            <div class="skillsContainer bdGrid">          
                 <div class="skillsData">
-                    <i class="bx bxl-javascript"></i>
-                    <span>JavaScript</span>
+                    <i class="bx bxl-javascript skillsIcon"></i>
+                    <span class="skillsName">JavaScript</span>
                 </div>
+
                 <div class="skillsData">
                     <i class='bx bxl-typescript'></i>
-                    <span>TypeScript</span>
+                    <span class="skillsName">TypeScript</span>
                 </div>
                 <div class="skillsData">
-                    <i class="bx bxl-react"></i>
-                    <span>React</span>
+                    <i class="bx bxl-react skillsIcon"></i>
+                    <span class="skillsName">React</span>
                 </div>
                 <div class="skillsData">
-                    <i class="bx bxl-react"></i>
-                    <span>React Native</span>
+                    <i class="bx bxl-react skillsIcon"></i>
+                    <span class="skillsName">React Native</span>
                 </div>
+
                 <div class="skillsData">
-                    <i class="bx bxl-nodejs"></i>
-                    <span>Node.js</span>
+                    <i class="bx bxl-nodejs skillsIcon"></i>
+                    <span class="skillsName">Node.js</span>
                 </div>
                 <div class="skillsData">
                     <i class='bx bxs-data'></i>
-                    <span>SQL/NoSQL</span>
+                    <span class="skillsName">SQL/NoSQL</span>
                 </div>
                 <div class="skillsData">
-                    <i class="bx bx-terminal"></i>
-                    <span>BASH</span>
+                    <i class="bx bx-terminal skillsIcon"></i>
+                    <span class="skillsName">BASH</span>
                 </div>
                 <div class="skillsData">
                     <i class='bx bxl-tux'></i>
-                    <span>Linux</span>
+                    <span class="skillsName">Linux</span>
                 </div>
             </div>
         </section>
 
+        <!-- <section class="skills section" id="softskills">
+            <h2 class="sectionTitle">Interpersonal Skills</h2>
+            <div class="skillsContainer bdGrid">          
+                <div class="skillsData">
+                    <i class='bx bx-bulb skillsIcon'></i>
+                    <span class="skillsName">Problem Solving</span>
+                </div>
+                <div class="skillsData">
+                    <i class='bx bx-message-dots skillsIcon'></i>
+                    <span class="skillsName">Communication</span>
+                </div>
+                <div class="skillsData">
+                    <i class='bx bx-group skillsIcon'></i>
+                    <span class="skillsName">Teamwork</span>
+                </div>
+                <div class="skillsData">
+                    <i class='bx bx-cog skillsIcon'></i>
+                    <span class="skillsName">Technical</span>
+                </div>
+            </div>
+        </section> -->
+        
+
         <section class="work section" id="work">
             <h2 class="sectionTitle">Work</h2>
-            <div class="workContainer">
-                <article class="workCard">
-                    <img src="./assets/1-front.png" alt="Viktor Danko Project" class="workCardImage">
-                    <div class="workCardContent">
-                        <h3 class="workCardTitle">Viktor Danko Filmmaking</h3>
-                        <p class="workCardDesc">A website to gather all social media links for a filmmaker and university professor.</p>
-                        <a href="https://viktordanko.com.br/" target="_blank" class="workCardLink">
-                            View Project <i class='bx bx-right-arrow-alt'></i>
-                        </a>
+            <div class="workContainer bdGrid">
+                <div class="workCard">
+                    <div class="workCardInner">
+                        <div class="workCardFront">
+                            <img src="./assets/1-front.png" alt="Viktor Danko Project Screenshot Front" class="workCardImage">
+                            <h3 class="workCardTitle">Viktor Danko Filmmaking</h3>
+                            <p class="workCardDesc">A website to gather all social media links for a filmmaker and university professor.</p>
+                        </div>
+                        <div class="workCardBack">
+                            <img src="./assets/1-back.png" alt="Viktor Danko Project Screenshot Back" class="workCardImageBack">
+                            <a href="https://viktordanko.com.br/" target="_blank" class="workCardButton">Click here to see it</a>
+                        </div>
                     </div>
-                </article>
+                </div>
 
-                <article class="workCard">
-                    <img src="./assets/2-front.png" alt="Bruno Calve Project" class="workCardImage">
-                    <div class="workCardContent">
-                        <h3 class="workCardTitle">Bruno Calve</h3>
-                        <p class="workCardDesc">Social media aggregator for a physical education teacher/coach.</p>
-                        <a href="https://brunocalve.netlify.app/" target="_blank" class="workCardLink">
-                            View Project <i class='bx bx-right-arrow-alt'></i>
-                        </a>
+                
+                <div class="workCard">
+                    <div class="workCardInner">
+                        <div class="workCardFront">
+                            <img src="./assets/2-front.png" alt="Bruno Calve Project Screenshot Front" class="workCardImage">
+                            <h3 class="workCardTitle">Bruno Calve</h3>
+                            <p class="workCardDesc">Social media aggregator for a physical education teacher/coach.</p>
+                        </div>
+                        <div class="workCardBack">
+                            <img src="./assets/2-back.png" alt="Bruno Calve Project Screenshot Back" class="workCardImageBack">
+                            <a href="https://brunocalve.netlify.app/" target="_blank" class="workCardButton">Click here to see it</a>
+                        </div>
                     </div>
-                </article>
-
-                <article class="workCard">
-                    <img src="./assets/4-front.png" alt="dotCorder Project" class="workCardImage">
-                    <div class="workCardContent">
-                        <h3 class="workCardTitle">dotCorder</h3>
-                        <p class="workCardDesc">A voice recording desktop application developed using Electron, published on Snapcraft and Windows.</p>
-                        <a href="https://snapcraft.io/dotcorder" target="_blank" class="workCardLink">
-                            View on Snapcraft <i class='bx bx-right-arrow-alt'></i>
-                        </a>
+                </div>
+                <div class="workCard">
+                    <div class="workCardInner">
+                        <div class="workCardFront">
+                            <img src="./assets//4-front.png" alt="dotCorder Project Screenshot Front" class="workCardImage">
+                            <h3 class="workCardTitle">dotCorder</h3>
+                            <p class="workCardDesc">A voice recording desktop application developed using Electron, published on Snapcraft by Canonical and also available for Windows.</p>
+                        </div>
+                        <div class="workCardBack">
+                            <img src="./assets/4-back.png" alt="dotCorder Project Screenshot Back" class="workCardImageBack">
+                            <a href="https://snapcraft.io/dotcorder" target="_blank" class="workCardButton">View on Snapcraft</a>
+                        </div>
                     </div>
-                </article>
-
-                <article class="workCard">
-                    <img src="./assets/5-front.png" alt="dotsApp Project" class="workCardImage">
-                    <div class="workCardContent">
-                        <h3 class="workCardTitle">dotsApp</h3>
-                        <p class="workCardDesc">An unofficial WhatsApp desktop application for Linux devices, developed using Electron.</p>
-                        <a href="https://snapcraft.io/dotwhatsapp" target="_blank" class="workCardLink">
-                            View on Snapcraft <i class='bx bx-right-arrow-alt'></i>
-                        </a>
+                </div>
+                <div class="workCard">
+                    <div class="workCardInner">
+                        <div class="workCardFront">
+                            <img src="./assets/5-front.png" alt="dotsApp Project Screenshot Front" class="workCardImage">
+                            <h3 class="workCardTitle">dotsApp</h3>
+                            <p class="workCardDesc">An unofficial WhatsApp desktop application for Linux devices, developed using Electron.</p>
+                        </div>
+                        <div class="workCardBack">
+                            <img src="./assets/5-back.png" alt="dotsApp Project Screenshot Back" class="workCardImageBack">
+                            <a href="https://snapcraft.io/dotwhatsapp" target="_blank" class="workCardButton">View on Snapcraft</a>
+                        </div>
                     </div>
-                </article>
-
-                <article class="workCard">
-                    <img src="./assets/6-front.png" alt="dotHealth Project" class="workCardImage">
-                    <div class="workCardContent">
-                        <h3 class="workCardTitle">dotHealth</h3>
-                        <p class="workCardDesc">A React Native application developed with Expo for checking Body Mass Index.</p>
-                        <a href="https://play.google.com/store/apps/details?id=com.dotextension.dothealth" target="_blank" class="workCardLink">
-                            View on Play Store <i class='bx bx-right-arrow-alt'></i>
-                        </a>
+                </div>
+                <div class="workCard">
+                    <div class="workCardInner">
+                        <div class="workCardFront">
+                            <img src="./assets/6-front.png" alt="dotHealth Project Screenshot Front" class="workCardImage">
+                            <h3 class="workCardTitle">dotHealth</h3>
+                            <p class="workCardDesc">A React Native application developed with Expo for checking Body Mass Index.</p>
+                        </div>
+                        <div class="workCardBack">
+                            <img src="./assets/6-back.png" alt="dotHealth Project Screenshot Back" class="workCardImageBack">
+                            <a href="https://play.google.com/store/apps/details?id=com.dotextension.dothealth" target="_blank" class="workCardButton">View on Google Play Store</a>
+                        </div>
                     </div>
-                </article>
-
-                <article class="workCard">
-                    <img src="./assets/3-front.png" alt="dotWeather Project" class="workCardImage">
-                    <div class="workCardContent">
-                        <h3 class="workCardTitle">dotWeather</h3>
-                        <p class="workCardDesc">A weather forecast Android App with React Native and Expo.</p>
-                        <a href="https://play.google.com/store/apps/details?id=com.dotextension.dotweather" target="_blank" class="workCardLink">
-                            View on Play Store <i class='bx bx-right-arrow-alt'></i>
-                        </a>
+                </div>
+                <div class="workCard">
+                    <div class="workCardInner">
+                        <div class="workCardFront">
+                            <img src="./assets/3-front.png" alt="dotWeather Project Screenshot Front" class="workCardImage">
+                            <h3 class="workCardTitle">dotWeather</h3>
+                            <p class="workCardDesc">A weather forecast Android App with React Native and Expo.</p>
+                        </div>
+                        <div class="workCardBack">
+                            <img src="./assets/3-back.png" alt="dotWeather Project Screenshot Back" class="workCardImageBack">
+                            <a href="https://play.google.com/store/apps/details?id=com.dotextension.dotweather" target="_blank" class="workCardButton">View on Google Play Store</a>
+                        </div>
                     </div>
-                </article>
-
-                <article class="workCard">
-                    <img src="./assets/7-front.png" alt="dotExchange Project" class="workCardImage">
-                    <div class="workCardContent">
-                        <h3 class="workCardTitle">dotExchange</h3>
-                        <p class="workCardDesc">An Android application made for checking currency conversion rates.</p>
-                        <a href="https://play.google.com/store/apps/details?id=com.renanmakoto.dotexchange" target="_blank" class="workCardLink">
-                            View on Play Store <i class='bx bx-right-arrow-alt'></i>
-                        </a>
+                </div>
+                <div class="workCard">
+                    <div class="workCardInner">
+                        <div class="workCardFront">
+                            <img src="./assets/7-front.png" alt="dotExchange Project Screenshot Front" class="workCardImage">
+                            <h3 class="workCardTitle">dotExchange</h3>
+                            <p class="workCardDesc">An Android application made for checking currency conversion rates.</p>
+                        </div>
+                        <div class="workCardBack">
+                            <img src="./assets/7-back.png" alt="dotExchange Project Screenshot Back" class="workCardImageBack">
+                            <a href="https://play.google.com/store/apps/details?id=com.renanmakoto.dotexchange" target="_blank" class="workCardButton">View on Google Play Store</a>
+                        </div>
                     </div>
-                </article>
+                </div>
             </div>
         </section>
 
+        <!-- <section class="section" id="certificates">
+            <h2 class="sectionTitle">Certificates & Education</h2>
+            <ul>
+                <li><h3>George Brown College</h3>Computer Programming and Analysis <br>2024–2026</li>
+                <li><h3>The Linux Foundation</h3>REST APIs Certificate <br>2023</li>
+                <li><h3>Google & Coursera</h3>IT Support Certificate <br>2023</li>
+            </ul>
+        </section> -->
+
+        <!-- <section class="section" id="volunteer">
+            <h2 class="sectionTitle">Volunteer Work</h2>
+            <ul>
+                <li><h3>Federation of Canadian-Brazilian Businesses</h3>IT Support Analyst <br>2024–Present</li>
+            </ul>
+        </section> -->
+
         <section class="contact section" id="contact">
             <h2 class="sectionTitle">Contact</h2>
-            <div class="contactContainer">
-                <p class="contactText">Feel free to reach out for collaborations or just a friendly hello</p>
+            <div class="contactContainer bdGrid">
                 <div class="contactLinks">
                     <a href="https://linkedin.com/in/renanmakoto" target="_blank" class="contactLink">
                         <i class='bx bxl-linkedin'></i> LinkedIn
@@ -188,10 +255,8 @@
     </main>
 
     <footer class="footer">
-        <div class="footerContent">
-            <p class="footerTitle">Thank you for visiting</p>
-            <p class="footerCopy">&copy; 2025 Renan Makoto</p>
-        </div>
+        <p class="footerTitle">Thank you for visiting!</p>
+        <p>&#169; 2025 - Renan Makoto</p>
     </footer>
 
     <script src="https://unpkg.com/scrollreveal"></script>
