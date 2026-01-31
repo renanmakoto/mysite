@@ -270,10 +270,10 @@ img {
 }
 
 .skillsContainer {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  row-gap: 1.5rem;
-  column-gap: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
   text-align: left;
   margin-bottom: 10rem;
 }
@@ -281,6 +281,7 @@ img {
 .skillsData {
   display: flex;
   align-items: center;
+  width: 190px;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
