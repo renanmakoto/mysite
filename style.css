@@ -160,6 +160,12 @@ img {
   right: 0;
 }
 
+.skills .skillsCard,
+.skills .skillsLearningCard {
+  background-color: var(--background-color);
+}
+
+
 @media screen and (min-width: 768px) {
   .navMenu {
     position: static;
