@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 :root {
@@ -357,7 +356,6 @@ img {
   position: absolute;
   width: 100%;
   height: 100%;
-  backface-visibility: hidden;
   border-radius: 0.5rem;
   padding: 2rem;
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
@@ -565,22 +563,27 @@ img {
 }
 
 .skillsGroupHeader {
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.75rem;
+  text-align: center;
 }
 
 .skillsGroupTitle {
-  margin: 0 0 0.35rem;
-  padding-left: 0.85rem;
-  border-left: 4px solid var(--first-color);
-  font-size: 1.18rem;
+  margin: 0 0 0.85rem;
+  padding: 0;
+  border: none;
+  font-size: 1.35rem;
   font-weight: 700;
+  text-align: center;
 }
 
-.skillsGroupDescription {
-  padding-left: 1.1rem;
-  color: #5d727d;
-  font-size: 0.9rem;
-  line-height: 1.65;
+.skillsGroupTitle::after {
+  content: "";
+  display: block;
+  width: 42px;
+  height: 3px;
+  margin: 0.65rem auto 0;
+  background-color: var(--first-color);
+  border-radius: 10px;
 }
 
 .skillsCards {
