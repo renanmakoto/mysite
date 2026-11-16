@@ -587,19 +587,20 @@ img {
 }
 
 .skillsCards {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
 }
 
 .skills .skillsCard {
   display: flex;
   align-items: center;
-  width: 100%;
-  min-width: 0;
-  min-height: 76px;
+  flex: 0 1 190px;
+  width: 190px;
+  min-height: 64px;
   gap: 0.7rem;
-  padding: 0.85rem 0.95rem;
+  padding: 0.5rem 1rem;
   border: 1px solid #e4eeee;
   border-radius: 0.65rem;
   background: #fff;
